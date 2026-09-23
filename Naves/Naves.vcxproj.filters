@@ -25,6 +25,12 @@
     <Filter Include="Archivos de encabezado\Actores">
       <UniqueIdentifier>{d412c22f-6b08-4226-ba69-d196cd7a152b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archivos de encabezado\Actores\Enemies">
+      <UniqueIdentifier>{ba7e9d87-c1fe-433e-99c4-9a35c6ae53ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Actores\Enemies">
+      <UniqueIdentifier>{c0b0d34a-9409-4581-bd9a-08d76bfc0728}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -48,9 +54,6 @@
     <ClCompile Include="Background.cpp">
       <Filter>Archivos de origen\Actores</Filter>
     </ClCompile>
-    <ClCompile Include="Enemy.cpp">
-      <Filter>Archivos de origen\Actores</Filter>
-    </ClCompile>
     <ClCompile Include="Projectile.cpp">
       <Filter>Archivos de origen\Actores</Filter>
     </ClCompile>
@@ -62,6 +65,15 @@
     </ClCompile>
     <ClCompile Include="Audio.cpp">
       <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Martian.cpp">
+      <Filter>Archivos de origen\Actores\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Asteroid.cpp">
+      <Filter>Archivos de origen\Actores\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Archivos de origen\Actores\Enemies</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -83,9 +95,6 @@
     <ClInclude Include="Background.h">
       <Filter>Archivos de encabezado\Actores</Filter>
     </ClInclude>
-    <ClInclude Include="Enemy.h">
-      <Filter>Archivos de encabezado\Actores</Filter>
-    </ClInclude>
     <ClInclude Include="Projectile.h">
       <Filter>Archivos de encabezado\Actores</Filter>
     </ClInclude>
@@ -97,6 +106,15 @@
     </ClInclude>
     <ClInclude Include="Audio.h">
       <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Asteroid.h">
+      <Filter>Archivos de encabezado\Actores\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Martian.h">
+      <Filter>Archivos de encabezado\Actores\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Archivos de encabezado\Actores\Enemies</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

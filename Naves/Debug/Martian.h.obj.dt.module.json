@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Debug\\Martian.obj",
+            "outputs": [
+                "Debug\\Martian.h.obj.dt.module.json",
+                "Debug\\Martian.h.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

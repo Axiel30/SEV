@@ -1,11 +1,11 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\axiel\\desktop\\sev\\sev\\naves\\enemy.h",
+        "Source": "c:\\users\\axiel\\desktop\\uni\\sev\\sev\\naves\\enemy.h",
         "ProvidedModule": "",
         "Includes": [
-            "c:\\users\\axiel\\desktop\\sev\\sev\\naves\\actor.h",
-            "c:\\users\\axiel\\desktop\\sev\\sev\\naves\\game.h",
+            "c:\\users\\axiel\\desktop\\uni\\sev\\sev\\naves\\actor.h",
+            "c:\\users\\axiel\\desktop\\uni\\sev\\sev\\naves\\game.h",
             "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\iostream",
             "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\yvals_core.h",
             "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\vcruntime.h",
@@ -264,8 +264,11 @@
             "c:\\videojuegos\\include\\sdl_ttf.h",
             "c:\\videojuegos\\include\\begin_code.h",
             "c:\\videojuegos\\include\\close_code.h",
-            "c:\\users\\axiel\\desktop\\sev\\sev\\naves\\layer.h",
-            "c:\\users\\axiel\\desktop\\sev\\sev\\naves\\animation.h"
+            "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\map",
+            "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\tuple",
+            "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\xtree",
+            "c:\\users\\axiel\\desktop\\uni\\sev\\sev\\naves\\layer.h",
+            "c:\\users\\axiel\\desktop\\uni\\sev\\sev\\naves\\animation.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

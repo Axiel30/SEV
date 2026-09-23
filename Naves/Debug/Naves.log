@@ -1,3 +1,27 @@
-﻿  Background.cpp
-C:\Users\axiel\Desktop\SEV\SEV\Naves\Background.cpp(18,9): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
-  Naves.vcxproj -> C:\Users\axiel\Desktop\SEV\SEV\Debug\Naves.exe
+﻿  Asteroid.cpp
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Asteroid.cpp(9,8): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+  Enemy.cpp
+  Game.cpp
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Audio.h(6,10): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
+  (compilando archivo de origen "Game.cpp")
+  
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Game.cpp(64,56): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Game.cpp(64,35): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+  GameLayer.cpp
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Audio.h(6,10): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
+  (compilando archivo de origen "GameLayer.cpp")
+  
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\GameLayer.cpp(14,53): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\GameLayer.cpp(14,38): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\GameLayer.cpp(142,37): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\GameLayer.cpp(142,33): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\GameLayer.cpp(145,38): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\GameLayer.cpp(145,34): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+  Martian.cpp
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Martian.cpp(6,63): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Martian.cpp(6,56): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Martian.cpp(16,8): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Martian.cpp(20,21): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Martian.cpp(20,18): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+  Generando código...
+  Naves.vcxproj -> C:\Users\axiel\Desktop\Uni\sev\SEV\Debug\Naves.exe

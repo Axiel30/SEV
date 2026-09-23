@@ -6,7 +6,8 @@
 #include "Enemy.h"
 #include "Projectile.h"
 #include "Text.h"
-
+#include "Martian.h"
+#include "Asteroid.h"
 #include "Audio.h"
 
 #include <list>
