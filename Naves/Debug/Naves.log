@@ -1,2 +1,3 @@
-﻿  GameLayer.cpp
-  Naves.vcxproj -> C:\Users\uo306090\source\repos\Naves\Debug\Naves.exe
+﻿  Background.cpp
+C:\Users\axiel\Desktop\SEV\SEV\Naves\Background.cpp(18,9): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+  Naves.vcxproj -> C:\Users\axiel\Desktop\SEV\SEV\Debug\Naves.exe
