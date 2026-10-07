@@ -37,5 +37,6 @@ public:
 
 	list<Enemy*> enemies;
 	list<Projectile*> projectiles;
+	Actor* hearts[3]; // Guardamos los 3 corazones
 };
 

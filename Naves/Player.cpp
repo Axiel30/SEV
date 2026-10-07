@@ -3,6 +3,7 @@
 Player::Player(float x, float y, Game* game)
 	: Actor("res/jugador.png", x, y, 50, 57, game) {
 	audioShoot = Audio::createAudio("res/efecto_disparo.wav", false);
+	lives = 3;
 }
 
 void Player::update() {
@@ -32,4 +33,12 @@ Projectile* Player::shoot() {
 		return NULL;
 	}
 
+}
+
+bool Player::isAlive() {
+	return lives > 0;
+}
+
+void Player::takeDamage() {
+	lives--;
 }

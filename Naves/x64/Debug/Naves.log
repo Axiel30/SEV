@@ -1,1 +1,103 @@
-﻿C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets(473,5): error MSB8020: No se pueden encontrar las herramientas de compilación para Visual Studio 2022 (Conjunto de herramientas de la plataforma = 'v143'). Para compilar con las herramientas de compilación v143, instale las herramientas de compilación Visual Studio 2022. También puede actualizar a las herramientas actuales de Visual Studio. Para ello, seleccione el menú Proyecto o haga clic con el botón secundario en la solución y, a continuación, seleccione "Actualizar solución".
+﻿  Actor.cpp
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Actor.cpp(7,12): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Actor.cpp(8,12): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+  Animation.cpp
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Animation.cpp(8,21): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Animation.cpp(9,22): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Animation.cpp(10,20): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Animation.cpp(11,21): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Animation.cpp(23,13): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Animation.cpp(24,13): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Animation.cpp(40,26): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Animation.cpp(47,20): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Animation.cpp(48,20): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+  Asteroid.cpp
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Asteroid.cpp(9,8): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+  Audio.cpp
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Audio.h(6,10): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
+  (compilando archivo de origen "Audio.cpp")
+  
+  Background.cpp
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Background.cpp(18,9): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+  Enemy.cpp
+  Game.cpp
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Audio.h(6,10): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
+  (compilando archivo de origen "Game.cpp")
+  
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Game.cpp(64,56): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Game.cpp(64,35): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+  GameLayer.cpp
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Audio.h(6,10): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
+  (compilando archivo de origen "GameLayer.cpp")
+  
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\GameLayer.cpp(14,53): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\GameLayer.cpp(14,38): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\GameLayer.cpp(142,37): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\GameLayer.cpp(142,33): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\GameLayer.cpp(145,38): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\GameLayer.cpp(145,34): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+  Layer.cpp
+  Main.cpp
+  Martian.cpp
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Martian.cpp(6,63): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Martian.cpp(6,56): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Martian.cpp(16,8): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Martian.cpp(20,21): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Martian.cpp(20,18): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+  Player.cpp
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Audio.h(6,10): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
+  (compilando archivo de origen "Player.cpp")
+  
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Player.cpp(13,8): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Player.cpp(14,8): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Player.cpp(29,28): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Player.cpp(29,25): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+  Projectile.cpp
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Projectile.cpp(9,8): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+  Text.cpp
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Text.cpp(4,12): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\axiel\Desktop\Uni\sev\SEV\Naves\Text.cpp(5,12): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+  Generando código...
+Actor.obj : error LNK2019: símbolo externo SDL_RenderCopyEx sin resolver al que se hace referencia en la función "public: virtual void __cdecl Actor::draw(void)" (?draw@Actor@@UEAAXXZ)
+Animation.obj : error LNK2001: símbolo externo SDL_RenderCopyEx sin resolver
+Audio.obj : error LNK2019: símbolo externo SDL_RWFromFile sin resolver al que se hace referencia en la función "private: __cdecl Audio::Audio(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,bool)" (??0Audio@@AEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z)
+Audio.obj : error LNK2019: símbolo externo SDL_OpenAudioDevice sin resolver al que se hace referencia en la función "private: __cdecl Audio::Audio(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,bool)" (??0Audio@@AEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z)
+Audio.obj : error LNK2019: símbolo externo SDL_PauseAudioDevice sin resolver al que se hace referencia en la función "public: void __cdecl Audio::play(void)" (?play@Audio@@QEAAXXZ)
+Audio.obj : error LNK2019: símbolo externo SDL_LoadWAV_RW sin resolver al que se hace referencia en la función "private: __cdecl Audio::Audio(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,bool)" (??0Audio@@AEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z)
+Audio.obj : error LNK2019: símbolo externo SDL_FreeWAV sin resolver al que se hace referencia en la función "public: __cdecl Audio::~Audio(void)" (??1Audio@@QEAA@XZ)
+Audio.obj : error LNK2019: símbolo externo SDL_QueueAudio sin resolver al que se hace referencia en la función "public: void __cdecl Audio::play(void)" (?play@Audio@@QEAAXXZ)
+Audio.obj : error LNK2019: símbolo externo SDL_GetQueuedAudioSize sin resolver al que se hace referencia en la función "public: void __cdecl Audio::play(void)" (?play@Audio@@QEAAXXZ)
+Audio.obj : error LNK2019: símbolo externo SDL_ClearQueuedAudio sin resolver al que se hace referencia en la función "public: void __cdecl Audio::play(void)" (?play@Audio@@QEAAXXZ)
+Audio.obj : error LNK2019: símbolo externo SDL_CloseAudioDevice sin resolver al que se hace referencia en la función "public: __cdecl Audio::~Audio(void)" (??1Audio@@QEAA@XZ)
+Audio.obj : error LNK2019: símbolo externo Mix_OpenAudio sin resolver al que se hace referencia en la función "private: __cdecl Audio::Audio(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,bool)" (??0Audio@@AEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z)
+Audio.obj : error LNK2019: símbolo externo Mix_LoadMUS sin resolver al que se hace referencia en la función "private: __cdecl Audio::Audio(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,bool)" (??0Audio@@AEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z)
+Audio.obj : error LNK2019: símbolo externo Mix_FreeMusic sin resolver al que se hace referencia en la función "public: __cdecl Audio::~Audio(void)" (??1Audio@@QEAA@XZ)
+Audio.obj : error LNK2019: símbolo externo Mix_PlayMusic sin resolver al que se hace referencia en la función "public: void __cdecl Audio::play(void)" (?play@Audio@@QEAAXXZ)
+Audio.obj : error LNK2019: símbolo externo Mix_CloseAudio sin resolver al que se hace referencia en la función "public: __cdecl Audio::~Audio(void)" (??1Audio@@QEAA@XZ)
+Game.obj : error LNK2019: símbolo externo SDL_GetError sin resolver al que se hace referencia en la función "public: __cdecl Game::Game(void)" (??0Game@@QEAA@XZ)
+Game.obj : error LNK2019: símbolo externo SDL_GetCurrentDisplayMode sin resolver al que se hace referencia en la función "public: void __cdecl Game::scale(void)" (?scale@Game@@QEAAXXZ)
+Game.obj : error LNK2019: símbolo externo SDL_SetWindowTitle sin resolver al que se hace referencia en la función "public: __cdecl Game::Game(void)" (??0Game@@QEAA@XZ)
+Game.obj : error LNK2019: símbolo externo SDL_SetWindowSize sin resolver al que se hace referencia en la función "public: void __cdecl Game::scale(void)" (?scale@Game@@QEAAXXZ)
+Game.obj : error LNK2019: símbolo externo SDL_SetHint sin resolver al que se hace referencia en la función "public: __cdecl Game::Game(void)" (??0Game@@QEAA@XZ)
+Game.obj : error LNK2019: símbolo externo SDL_CreateWindowAndRenderer sin resolver al que se hace referencia en la función "public: __cdecl Game::Game(void)" (??0Game@@QEAA@XZ)
+Game.obj : error LNK2019: símbolo externo SDL_CreateTextureFromSurface sin resolver al que se hace referencia en la función "public: struct SDL_Texture * __cdecl Game::getTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?getTexture@Game@@QEAAPEAUSDL_Texture@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Text.obj : error LNK2001: símbolo externo SDL_CreateTextureFromSurface sin resolver
+Game.obj : error LNK2019: símbolo externo SDL_RenderSetScale sin resolver al que se hace referencia en la función "public: void __cdecl Game::scale(void)" (?scale@Game@@QEAAXXZ)
+Game.obj : error LNK2019: símbolo externo SDL_GetTicks sin resolver al que se hace referencia en la función "public: void __cdecl Game::loop(void)" (?loop@Game@@QEAAXXZ)
+Game.obj : error LNK2019: símbolo externo SDL_Delay sin resolver al que se hace referencia en la función "public: void __cdecl Game::loop(void)" (?loop@Game@@QEAAXXZ)
+Game.obj : error LNK2019: símbolo externo SDL_Init sin resolver al que se hace referencia en la función "public: __cdecl Game::Game(void)" (??0Game@@QEAA@XZ)
+Game.obj : error LNK2019: símbolo externo IMG_Load sin resolver al que se hace referencia en la función "public: struct SDL_Texture * __cdecl Game::getTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?getTexture@Game@@QEAAPEAUSDL_Texture@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Game.obj : error LNK2019: símbolo externo TTF_Init sin resolver al que se hace referencia en la función "public: __cdecl Game::Game(void)" (??0Game@@QEAA@XZ)
+Game.obj : error LNK2019: símbolo externo TTF_OpenFont sin resolver al que se hace referencia en la función "public: __cdecl Game::Game(void)" (??0Game@@QEAA@XZ)
+GameLayer.obj : error LNK2019: símbolo externo SDL_PollEvent sin resolver al que se hace referencia en la función "public: virtual void __cdecl GameLayer::processControls(void)" (?processControls@GameLayer@@UEAAXXZ)
+GameLayer.obj : error LNK2019: símbolo externo SDL_RenderPresent sin resolver al que se hace referencia en la función "public: virtual void __cdecl GameLayer::draw(void)" (?draw@GameLayer@@UEAAXXZ)
+Text.obj : error LNK2019: símbolo externo SDL_FreeSurface sin resolver al que se hace referencia en la función "public: void __cdecl Text::draw(void)" (?draw@Text@@QEAAXXZ)
+Text.obj : error LNK2019: símbolo externo SDL_RenderCopy sin resolver al que se hace referencia en la función "public: void __cdecl Text::draw(void)" (?draw@Text@@QEAAXXZ)
+Text.obj : error LNK2019: símbolo externo SDL_DestroyTexture sin resolver al que se hace referencia en la función "public: void __cdecl Text::draw(void)" (?draw@Text@@QEAAXXZ)
+Text.obj : error LNK2019: símbolo externo TTF_RenderText_Blended sin resolver al que se hace referencia en la función "public: void __cdecl Text::draw(void)" (?draw@Text@@QEAAXXZ)
+C:\Videojuegos\lib\SDL2.lib : warning LNK4272: el tipo de máquina de biblioteca 'x86' está en conflicto con el tipo de máquina de destino 'x64'
+C:\Videojuegos\lib\SDL2main.lib : warning LNK4272: el tipo de máquina de biblioteca 'x86' está en conflicto con el tipo de máquina de destino 'x64'
+C:\Videojuegos\lib\SDL2_image.lib : warning LNK4272: el tipo de máquina de biblioteca 'x86' está en conflicto con el tipo de máquina de destino 'x64'
+C:\Videojuegos\lib\SDL2_ttf.lib : warning LNK4272: el tipo de máquina de biblioteca 'x86' está en conflicto con el tipo de máquina de destino 'x64'
+C:\Videojuegos\lib\SDL2_mixer.lib : warning LNK4272: el tipo de máquina de biblioteca 'x86' está en conflicto con el tipo de máquina de destino 'x64'
+C:\Users\axiel\Desktop\Uni\sev\SEV\x64\Debug\Naves.exe : fatal error LNK1120: 35 externos sin resolver

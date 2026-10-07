@@ -19,6 +19,12 @@ void GameLayer::init() {
 	backgroundPoints = new Actor("res/icono_puntos.png",
 		WIDTH * 0.85, HEIGHT * 0.05, 24, 24, game);
 
+	// Inicializar los 3 corazones ---
+	// Posicionados en la esquina superior izquierda
+	for (int i = 0; i < 3; i++) {
+		hearts[i] = new Actor("res/corazon.png", 30 + (i * 50), 30, 44, 36, game);
+	}
+
 	projectiles.clear(); // Vaciar por si reiniciamos el juego
 
 	enemies.clear(); // Vaciar por si reiniciamos el juego
@@ -152,16 +158,21 @@ void GameLayer::update() {
 		enemy->update();
 	}
 
+	
 	// Colisiones
 	for (auto const& enemy : enemies) {
 		if (player->isOverlap(enemy)) {
-			init();
-			return; // Cortar el for
+			enemies.remove(enemy);
+			player->takeDamage();
+			if (!player->isAlive()) {
+				init();
+				return;
+			}
+			break;
 		}
 	}
 
 	// Colisiones , Enemy - Projectile
-
 	list<Enemy*> deleteEnemies;
 	list<Projectile*> deleteProjectiles;
 
@@ -231,6 +242,10 @@ void GameLayer::draw() {
 	}
 	textPoints->draw();
 	backgroundPoints->draw();
+
+	for (int i = 0; i < player->lives; i++) {
+		hearts[i]->draw();
+	}
 
 	SDL_RenderPresent(game->renderer); // Renderiza
 }

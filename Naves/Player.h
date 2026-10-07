@@ -12,7 +12,10 @@ public:
 	void update();
 	void moveX(float axis);
 	void moveY(float axis);
+	bool isAlive();
+	void takeDamage();
 	Audio* audioShoot;
 	int shootCadence = 30;
 	int shootTime = 0;
+	int lives;
 };
