@@ -9,6 +9,8 @@
 #include "Martian.h"
 #include "Asteroid.h"
 #include "Audio.h"
+#include "Coin.h"
+#include "Bomb.h"
 
 #include <list>
 
@@ -38,5 +40,10 @@ public:
 	list<Enemy*> enemies;
 	list<Projectile*> projectiles;
 	Actor* hearts[3]; // Guardamos los 3 corazones
-};
 
+	list<Coin*> coins;
+	int newCoinTime = 0;
+
+	list<Bomb*> bombs;
+	int newBombTime = 0;
+};

@@ -27,6 +27,15 @@ void GameLayer::init() {
 
 	projectiles.clear(); // Vaciar por si reiniciamos el juego
 
+	coins.clear(); // Vaciar monedas por si reiniciamos el juego
+	newCoinTime = 180; // Número N de iteraciones para generar una moneda
+
+	coins.clear(); // Vaciar monedas por si reiniciamos el juego
+	newCoinTime = 180;
+
+	bombs.clear(); // Vaciar bombas por si reiniciamos el juego
+	newBombTime = 250; // Número N de iteraciones para generar una bomba
+
 	enemies.clear(); // Vaciar por si reiniciamos el juego
 	enemies.push_back(new Martian(300, 50, game));
 	enemies.push_back(new Martian(300, 200, game));
@@ -152,12 +161,56 @@ void GameLayer::update() {
 		newEnemyTime = 110;
 	}
 
+	// Generar moneda cada N iteraciones del juego (ej. N = 150)
+	newCoinTime--;
+	if (newCoinTime <= 0) {
+		int rX = (rand() % (600 - 500)) + 1 + 500;
+		int rY = (rand() % (300 - 60)) + 1 + 60;
+		coins.push_back(new Coin(rX, rY, game));
+		newCoinTime = 150;
+	}
+
+	// Generar bomba cada N iteraciones (ej. N = 250)
+	newBombTime--;
+	if (newBombTime <= 0) {
+		int rX = (rand() % (600 - 500)) + 1 + 500;
+		int rY = (rand() % (300 - 60)) + 1 + 60;
+		bombs.push_back(new Bomb(rX, rY, game));
+		newBombTime = 250;
+	}
 
 	player->update();
 	for (auto const& enemy : enemies) {
 		enemy->update();
 	}
+	for (auto const& coin : coins) {
+		coin->update();
+	}
+	for (auto const& bomb : bombs) {
+		bomb->update();
+	}
 
+	// Colisiones: Player - Coin (Suma 5 puntos)
+	list<Coin*> deleteCoins;
+	for (auto const& coin : coins) {
+		if (player->isOverlap(coin)) {
+			points += 5;
+			textPoints->content = to_string(points);
+
+			bool cInList = std::find(deleteCoins.begin(),
+				deleteCoins.end(),
+				coin) != deleteCoins.end();
+			if (!cInList) {
+				deleteCoins.push_back(coin);
+			}
+		}
+	}
+
+	for (auto const& delCoin : deleteCoins) {
+		coins.remove(delCoin);
+		delete delCoin;
+	}
+	deleteCoins.clear();
 	
 	// Colisiones
 	for (auto const& enemy : enemies) {
@@ -175,6 +228,38 @@ void GameLayer::update() {
 	// Colisiones , Enemy - Projectile
 	list<Enemy*> deleteEnemies;
 	list<Projectile*> deleteProjectiles;
+
+	// Colisiones: Player - Bomb (Elimina todos los enemigos en pantalla y suma sus puntos)
+	list<Bomb*> deleteBombs;
+	for (auto const& bomb : bombs) {
+		if (player->isOverlap(bomb)) {
+			bool bInList = std::find(deleteBombs.begin(),
+				deleteBombs.end(),
+				bomb) != deleteBombs.end();
+			if (!bInList) {
+				deleteBombs.push_back(bomb);
+			}
+
+			// Recorremos los enemigos para eliminar los que estén en pantalla
+			for (auto const& enemy : enemies) {
+				if (enemy->isInRender()) {
+					bool eInList = std::find(deleteEnemies.begin(),
+						deleteEnemies.end(),
+						enemy) != deleteEnemies.end();
+					if (!eInList) {
+						deleteEnemies.push_back(enemy);
+						points++;
+					}
+				}
+			}
+			textPoints->content = to_string(points);
+		}
+	}
+	for (auto const& delBomb : deleteBombs) {
+		bombs.remove(delBomb);
+		delete delBomb;
+	}
+	deleteBombs.clear();
 
 	for (auto const& projectile : projectiles) {
 		if (projectile->isInRender() == false) {
@@ -240,6 +325,13 @@ void GameLayer::draw() {
 	for (auto const& enemy : enemies) {
 		enemy->draw();
 	}
+	for (auto const& coin : coins) {
+		coin->draw();
+	}
+	for (auto const& bomb : bombs) {
+		bomb->draw();
+	}
+
 	textPoints->draw();
 	backgroundPoints->draw();
 

@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Debug\\Bomb.obj",
+            "outputs": [
+                "Debug\\Bomb.h.obj.dt.module.json",
+                "Debug\\Bomb.h.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

@@ -31,6 +31,12 @@
     <Filter Include="Archivos de origen\Actores\Enemies">
       <UniqueIdentifier>{c0b0d34a-9409-4581-bd9a-08d76bfc0728}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archivos de encabezado\Actores\Objetos">
+      <UniqueIdentifier>{7320f621-1f99-4180-adfc-d5d5fd7d1312}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Actores\Objetos">
+      <UniqueIdentifier>{a1daff02-bc53-45f7-8b87-175ec213e27e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -75,6 +81,12 @@
     <ClCompile Include="Enemy.cpp">
       <Filter>Archivos de origen\Actores\Enemies</Filter>
     </ClCompile>
+    <ClCompile Include="Coin.cpp">
+      <Filter>Archivos de origen\Actores\Objetos</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomb.cpp">
+      <Filter>Archivos de origen\Actores\Objetos</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -115,6 +127,12 @@
     </ClInclude>
     <ClInclude Include="Enemy.h">
       <Filter>Archivos de encabezado\Actores\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Coin.h">
+      <Filter>Archivos de encabezado\Actores\Objetos</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomb.h">
+      <Filter>Archivos de encabezado\Actores\Objetos</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

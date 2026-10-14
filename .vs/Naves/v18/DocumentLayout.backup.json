@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\axiel\\Desktop\\Uni\\sev\\SEV\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C64D9382-CCBB-47E1-8AB5-A43959A20897}|Naves\\Naves.vcxproj|C:\\Users\\axiel\\Desktop\\Uni\\sev\\SEV\\Naves\\Bomb.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C64D9382-CCBB-47E1-8AB5-A43959A20897}|Naves\\Naves.vcxproj|solutionrelative:Naves\\Bomb.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C64D9382-CCBB-47E1-8AB5-A43959A20897}|Naves\\Naves.vcxproj|C:\\Users\\axiel\\Desktop\\Uni\\sev\\SEV\\Naves\\GameLayer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C64D9382-CCBB-47E1-8AB5-A43959A20897}|Naves\\Naves.vcxproj|solutionrelative:Naves\\GameLayer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -11,12 +15,8 @@
       "RelativeMoniker": "D:0:0:{C64D9382-CCBB-47E1-8AB5-A43959A20897}|Naves\\Naves.vcxproj|solutionrelative:Naves\\GameLayer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C64D9382-CCBB-47E1-8AB5-A43959A20897}|Naves\\Naves.vcxproj|C:\\Users\\axiel\\Desktop\\Uni\\sev\\SEV\\Naves\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C64D9382-CCBB-47E1-8AB5-A43959A20897}|Naves\\Naves.vcxproj|solutionrelative:Naves\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C64D9382-CCBB-47E1-8AB5-A43959A20897}|Naves\\Naves.vcxproj|C:\\Users\\axiel\\Desktop\\Uni\\sev\\SEV\\Naves\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C64D9382-CCBB-47E1-8AB5-A43959A20897}|Naves\\Naves.vcxproj|solutionrelative:Naves\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C64D9382-CCBB-47E1-8AB5-A43959A20897}|Naves\\Naves.vcxproj|C:\\Users\\axiel\\Desktop\\Uni\\sev\\SEV\\Naves\\Bomb.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C64D9382-CCBB-47E1-8AB5-A43959A20897}|Naves\\Naves.vcxproj|solutionrelative:Naves\\Bomb.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,64 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GameLayer.h",
-              "DocumentMoniker": "C:\\Users\\axiel\\Desktop\\Uni\\sev\\SEV\\Naves\\GameLayer.h",
-              "RelativeDocumentMoniker": "Naves\\GameLayer.h",
-              "ToolTip": "C:\\Users\\axiel\\Desktop\\Uni\\sev\\SEV\\Naves\\GameLayer.h",
-              "RelativeToolTip": "Naves\\GameLayer.h",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACcAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-10-07T13:09:28.884Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Player.cpp",
-              "DocumentMoniker": "C:\\Users\\axiel\\Desktop\\Uni\\sev\\SEV\\Naves\\Player.cpp",
-              "RelativeDocumentMoniker": "Naves\\Player.cpp",
-              "ToolTip": "C:\\Users\\axiel\\Desktop\\Uni\\sev\\SEV\\Naves\\Player.cpp",
-              "RelativeToolTip": "Naves\\Player.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-10-07T12:55:46.572Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Player.h",
-              "DocumentMoniker": "C:\\Users\\axiel\\Desktop\\Uni\\sev\\SEV\\Naves\\Player.h",
-              "RelativeDocumentMoniker": "Naves\\Player.h",
-              "ToolTip": "C:\\Users\\axiel\\Desktop\\Uni\\sev\\SEV\\Naves\\Player.h",
-              "RelativeToolTip": "Naves\\Player.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-10-07T12:54:52.297Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "GameLayer.cpp",
               "DocumentMoniker": "C:\\Users\\axiel\\Desktop\\Uni\\sev\\SEV\\Naves\\GameLayer.cpp",
               "RelativeDocumentMoniker": "Naves\\GameLayer.cpp",
               "ToolTip": "C:\\Users\\axiel\\Desktop\\Uni\\sev\\SEV\\Naves\\GameLayer.cpp",
               "RelativeToolTip": "Naves\\GameLayer.cpp",
-              "ViewState": "AgIAAN4AAAAAAAAAAAAgwPMAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAFcBAAAAAAAAAAAAAEgBAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-10-07T12:53:01.669Z",
+              "WhenOpened": "2026-10-14T19:34:48.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameLayer.h",
+              "DocumentMoniker": "C:\\Users\\axiel\\Desktop\\Uni\\sev\\SEV\\Naves\\GameLayer.h",
+              "RelativeDocumentMoniker": "Naves\\GameLayer.h",
+              "ToolTip": "C:\\Users\\axiel\\Desktop\\Uni\\sev\\SEV\\Naves\\GameLayer.h",
+              "RelativeToolTip": "Naves\\GameLayer.h",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-10-14T19:30:16.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Bomb.cpp",
+              "DocumentMoniker": "C:\\Users\\axiel\\Desktop\\Uni\\sev\\SEV\\Naves\\Bomb.cpp",
+              "RelativeDocumentMoniker": "Naves\\Bomb.cpp",
+              "ToolTip": "C:\\Users\\axiel\\Desktop\\Uni\\sev\\SEV\\Naves\\Bomb.cpp*",
+              "RelativeToolTip": "Naves\\Bomb.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-14T19:16:12.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Bomb.h",
+              "DocumentMoniker": "C:\\Users\\axiel\\Desktop\\Uni\\sev\\SEV\\Naves\\Bomb.h",
+              "RelativeDocumentMoniker": "Naves\\Bomb.h",
+              "ToolTip": "C:\\Users\\axiel\\Desktop\\Uni\\sev\\SEV\\Naves\\Bomb.h",
+              "RelativeToolTip": "Naves\\Bomb.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-10-14T19:11:31.911Z",
               "EditorCaption": ""
             }
           ]
